@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<g>
+    <obj ns="kafka" name="server" inheritance="" title="Описание даннго модуля">
+    	<attribute name="debug" type="long" title="Тестовый вывод 1-то что отправляет сервер, 2-то что получает сервер, 3-и то и другое"/>
+
+	<attribute name="root" type="string" title="http-root каталог"/>
+    	<attribute name="port" type="string" title="порт на который посадить сервер, по умолчанию 8080"/>
+    	<attribute name="threads" type="string" title="количество нитей обратки запросов от браузеров, по умолчанию 1"/>
+
+    	<attribute name="kafka" type="string" title="сервер кафка"/>
+    	
+    </obj>
+</g>
+
