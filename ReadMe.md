@@ -8,11 +8,11 @@ Handle message query via http:
 
 Put data: 
     
-    curl -X POST "http://127.0.0.1:8000/v1/item" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"key\": 5, \"value\":  \"decoder\"}"	
+    curl -X POST "http://127.0.0.1:8888/v1/item" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"key\": 5, \"value\":  \"decoder\"}"	
 
 Get data: 
 
-    curl -X GET "http://127.0.0.1:8000/v1/item/5" -H "accept: application/json"
+    curl -X GET "http://127.0.0.1:8888/v1/item/5" -H "accept: application/json"
 
 **Answer:**
 
